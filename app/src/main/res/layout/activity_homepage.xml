@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    android:padding="15dp"
+    tools:context=".Homepage">
+
+
+    <TextView
+        android:id="@+id/ttV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="text"
+        android:text="Welcome To MUSCaffe"
+        android:textColor="#ccbeb1"
+        android:padding="15dp"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text="press View menu :"
+        android:gravity="center"
+        android:textColor="#d1bfae"
+        android:padding="15dp"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#120f0d"
+        android:padding="10dp"
+        android:text="View menu"
+        android:textColor="#ba9311"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <Button
+        android:id="@+id/button222"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#120f0d"
+        android:padding="10dp"
+        android:text="Log out"
+        android:textColor="#ba9311"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="601dp" />
+
+    <Button
+        android:id="@+id/bAdmin"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#120f0d"
+        android:padding="10dp"
+        android:text="Admin List"
+        android:textColor="#ba9311"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="601dp" />
+
+
+</LinearLayout>
+

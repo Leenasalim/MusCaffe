@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    android:padding="15dp"
+    tools:context=".Admin">
+
+    <TextView
+        android:id="@+id/tvAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Cafe Manager"
+        android:textColor="#ccbeb1"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="396dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <Button
+        android:id="@+id/bAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#120f0d"
+        android:padding="15dp"
+        android:textColor="#ba9311"
+        android:layout_gravity="center"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:text="Add Item" />
+
+    <Button
+        android:id="@+id/bDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#120f0d"
+        android:padding="15dp"
+        android:textColor="#ba9311"
+        android:layout_gravity="center"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:text="Delete Item" />
+
+    <Button
+        android:id="@+id/bUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#120f0d"
+        android:padding="15dp"
+        android:textColor="#ba9311"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:text="Update Item" />
+
+    <Button
+        android:id="@+id/bLogOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#120f0d"
+        android:padding="15dp"
+        android:layout_gravity="center"
+        android:text="Log Out"
+        android:textColor="#ba9311"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bBackHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#120f0d"
+        android:padding="15dp"
+        android:layout_gravity="center"
+        android:text="Back Home"
+        android:textColor="#ba9311"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

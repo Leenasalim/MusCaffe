@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    android:padding="15dp"
+    tools:context=".LogOut">
+
+
+    <Button
+        android:id="@+id/AdminLogOut"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#120f0d"
+        android:padding="18dp"
+        android:text="Log out"
+        android:textColor="#ba9311"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bLogOutAdmin2"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#120f0d"
+        android:padding="18dp"
+        android:text="Back to Admin List"
+        android:textColor="#ba9311"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</LinearLayout>

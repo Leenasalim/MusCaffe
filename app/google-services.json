@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "692809229455",
+    "project_id": "muscaffenew",
+    "storage_bucket": "muscaffenew.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692809229455:android:32ccf637c5ecd7701fbcfa",
+        "android_client_info": {
+          "package_name": "com.example.mscafe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY7XO_KMPDdQW4fuoy47Qd8rAxov7RMC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692809229455:android:b4689f58a56e58e51fbcfa",
+        "android_client_info": {
+          "package_name": "com.example.muscaffe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY7XO_KMPDdQW4fuoy47Qd8rAxov7RMC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#94897c"
+    tools:context=".LogIn">
+
+    <ImageView
+        android:id="@+id/loginLogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:contentDescription="Example Image"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/regesterloginlogo" />
+
+    <EditText
+        android:id="@+id/email2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints="emailAddress"
+        android:hint="Enter your Email"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textEmailAddress"
+        android:importantForAutofill="yes"        />
+    <EditText
+        android:id="@+id/password3"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:padding="10dp"
+        android:hint="Enter your password"
+        android:autofillHints="password"
+        android:importantForAutofill="yes"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/Button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:padding="12dp"
+        android:textColor="@color/white"
+        android:text="Login"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:paddingTop="20dp"
+        android:textSize="24dp"
+        android:text="You Don't Have an Account?" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/homePa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:backgroundTint="@color/black"
+        android:text="Home" />
+
+</LinearLayout>

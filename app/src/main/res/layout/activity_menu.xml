@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Menu">
+
+
+    <TextView
+        android:id="@+id/Menu12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="MUSCaffe"
+        android:textAlignment="center"
+        android:textColor="#c4a486"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#ccbeb1" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/foodPic"
+                android:layout_width="118dp"
+                android:layout_height="100dp"
+                android:src="@drawable/sweet"
+                android:textColor="#ccbeb1" />
+
+            <TextView android:id="@+id/ColdDrinkS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Sweets"
+                android:textColor="#ccbeb1"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bSweet"
+                android:layout_width="116dp"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Buy"
+                android:textColor="#38332f"
+                android:textSize="14dp"
+                android:backgroundTint="#8c837a"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+        <View
+            android:layout_width="2dp"
+            android:layout_height="150dp"
+            android:layout_marginHorizontal="12dp"
+            android:textColor="#ccbeb1"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/drinkPic"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/drink" />
+            <TextView
+                android:id="@+id/drinkLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Cold Drinks"
+                android:textColor="#ccbeb1"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/bCold"
+                android:layout_width="104dp"
+                android:padding="8dp"
+                android:text="Buy"
+                android:textColor="#38332f"
+                android:textSize="14dp"
+                android:backgroundTint="#8c837a"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/bHome1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#8c837a"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:text="Back home page"
+        android:textColor="#38332f"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+
+</LinearLayout>
